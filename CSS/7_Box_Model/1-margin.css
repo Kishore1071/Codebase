@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+/* All side margin with same value */
+.para-1 { 
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+/* Marign with opposite side has same value */
+.para-2 {
+    background-color: aquamarine;
+    margin: 10px 20px;
+}
+
+/* Marign with top, bottom have different values and left, right have same value */
+.para-3 {
+    background-color: aquamarine;
+    margin: 10px 20px 30px;
+}
+
+/* Marign with each side has different value */
+.para-4 {
+    background-color: aquamarine;
+    margin: 10px 20px 30px 40px;
+}
+
+
+/* Margin for left side */
+.para-5 { 
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+
+/* Margin for right side */
+.para-6 {
+    background-color: aquamarine;
+    margin-right: 20px;
+}
+
+/* Margin for top side */
+.para-7 {
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+
+/* Margin for bottom side */
+.para-8 {
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+
+/* Automatic horizontal margin */
+.para-9 {
+    background-color: aquamarine;
+    width: 50%;
+    margin: auto;
+}

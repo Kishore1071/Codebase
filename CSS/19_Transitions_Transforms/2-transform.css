@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.box1:hover {
+    transform: translate(50px, 20px);
+}
+
+.box2:hover {
+    /* transform: scale(1.2); */
+    transform: scale(1.2, 0.8);
+}
+
+.box3:hover {
+    transform: rotate(45deg);
+}
+
+.box4:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.box5:hover {
+    transform: perspective(500px) rotateY(45deg);
+}

@@ -1,0 +1,55 @@
+/* All side padding with same value */
+.para-1 { 
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+/* Padding with opposite side has same value */
+.para-2 {
+    background-color: aquamarine;
+    padding: 10px 20px;
+}
+
+/* Padding with top, bottom have different values and left, right have same value */
+.para-3 {
+    background-color: aquamarine;
+    padding: 10px 20px 30px;
+}
+
+/* Padding with each side has different value */
+.para-4 {
+    background-color: aquamarine;
+    padding: 10px 20px 30px 40px;
+}
+
+
+/* Padding for left side */
+.para-5 { 
+    background-color: aquamarine;
+    padding-left: 20px;
+}
+
+/* Padding for right side */
+.para-6 {
+    background-color: aquamarine;
+    padding-right: 20px;
+}
+
+/* Padding for top side */
+.para-7 {
+    background-color: aquamarine;
+    padding-top: 20px;
+}
+
+/* Padding for bottom side */
+.para-8 {
+    background-color: aquamarine;
+    padding-bottom: 20px;
+}
+
+/* Automatic horizontal padding */
+.para-9 {
+    background-color: aquamarine;
+    width: 50%;
+    padding: auto;
+}

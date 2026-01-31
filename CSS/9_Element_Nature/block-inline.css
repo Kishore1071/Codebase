@@ -1,0 +1,27 @@
+/* * {
+    margin: 0;
+} */
+
+.inline-element {
+    display: inline;
+    color: blueviolet;
+    background-color: bisque;
+}
+
+.block-element {
+    display: block;
+    color: brown;
+    background-color: bisque;
+}
+
+.box-model {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.nested {
+    display: inline-block;
+    background-color: orange;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <link rel="stylesheet" href="combinators.css">
+</head>
+<body>
+    <!-- Selecting all childs of specifi parent-->
+    <div class="div-1">
+        <p class="para-1">Paragraph 1</p>
+
+        <section>
+            <p class="para-1">Paragraph Nested</p>
+        </section>
+    </div>
+    <p class="para-1">Paragraph 2</p>
+    <hr>
+
+
+    <!-- Selecting only direct childs of specifi parent-->
+    <div class="div-2">
+        <p class="para-2">Paragraph 3</p>
+
+        <section>
+            <p class="para-2">Paragraph Nested</p>
+        </section>
+    </div>
+    <p class="para-2">Paragraph 4</p>
+    <hr>
+
+
+    <!-- Selecting all sibling elements -->
+
+    <p class="main-para-1">Main Paragraph - 1</p>
+
+    <h4 class="sibling-1">First Sibling</h4>
+    <span>Sample</span>
+    <h4 class="sibling-1">First Sibling</h4>
+    <h4 class="sibling-1">First Sibling</h4>
+    <hr>
+
+    <!-- Selecting only direct sibling elements -->
+
+    <p class="main-para-2">Main Paragraph - 2</p>
+
+    <h4 class="sibling-2">First Sibling</h4>
+    <h4 class="sibling-2">First Sibling</h4>
+    <span>Sample</span>
+    <h4 class="sibling-2">First Sibling</h4>
+</body>
+</html>

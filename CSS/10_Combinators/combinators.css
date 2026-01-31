@@ -1,0 +1,19 @@
+.div-1, .div-2 {
+    border: 1px solid grey;
+}
+
+.div-1 .para-1 {
+    background-color: aqua;
+}
+
+.div-2 > .para-2 {
+    background-color: aqua;
+}
+
+.main-para-1 ~ .sibling-1 {
+    font-style: italic;
+}
+
+.main-para-2 + .sibling-2 {
+    font-family: 'Courier New', Courier, monospace;
+}

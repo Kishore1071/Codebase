@@ -1,0 +1,32 @@
+.title-1::before {
+    content: "$";
+}
+
+.title-2::after {
+    content: "🏛️";
+}
+
+.first-para::first-letter {
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+}
+
+.second-para::first-line {
+    font-size: 25px;
+    color: violet;
+}
+
+.second-para::selection {
+    background-color: red;
+    color: white;
+}
+
+
+.list-1 li::marker {
+    color: dodgerblue;
+}
+
+.form-text::placeholder {
+    color: coral;
+}

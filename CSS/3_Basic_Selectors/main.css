@@ -1,0 +1,15 @@
+* {
+    font-size: 20px;
+}
+
+h1 {
+    background-color: orange;
+}
+
+.paragraph-1 {
+    color: red;
+}
+
+#second-para {
+    color: blue;
+}

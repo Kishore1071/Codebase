@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+}
+
+.example-1 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.example-2 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.container-2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    overflow: hidden;
+}
+
+.example-3 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 95%;
+}
+
+.container-3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    /* overflow-x: auto; */
+    /* overflow-y: auto; */
+    overflow: auto;
+}
+
+.example-4 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 95%;
+}

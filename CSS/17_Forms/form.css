@@ -1,0 +1,32 @@
+.form {
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+    box-shadow: 5px 5px 0px blue;
+    border-radius: 5px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+input[type] {
+    background-color: antiquewhite;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,56 @@
+.div-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.div-1:hover {
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+}
+
+.button-click:active {
+    background: orange;
+    border: 1px solid red;
+}
+
+.list-1-items:first-child {
+    color: orange;
+    font-weight: bolder;
+}
+
+.list-1-items:last-child {
+    color: purple;
+    letter-spacing: 5px;
+}
+
+.para:nth-child(3) {
+  color: green;
+}
+
+.first-table-body tr:nth-child(odd){
+    background-color: grey;
+    color: white;
+}
+
+.first-table-body tr:nth-child(even){
+    background-color: antiquewhite;
+    color: black;
+}
+
+.user-name:focus {
+    background-color: antiquewhite;
+}
+
+.checkmark:checked {
+    accent-color: orange;
+}
+
+.submit-button:disabled {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    /* opacity: 0.5; */
+    cursor: not-allowed;
+}

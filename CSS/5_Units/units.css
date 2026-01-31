@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+/* Absolute units */
+
+h1 {
+    font-size: 20px;
+}
+
+/* Relative units */
+
+/* 
+em 
+1em = font size of the parent or container element
+*/
+
+section {
+    font-size: 20px;
+}
+
+.main-para {
+    font-size: 1.5em; 
+}
+
+/* 
+rem 
+1rem = font size of the root element
+Default font size of root element is 16px
+*/
+
+html {
+    font-size: 12px; 
+}
+
+.second-para {
+    font-size: 2rem;
+}
+
+
+/* Viewport height and width: takes the value from the screen of the devices used to view the webpage */
+
+.div-1 {
+    background-color: aqua;
+}
+
+.div-2 {
+    background-color: aqua;
+    height: 40vh;
+}
+
+.div-3 {
+    background-color: aquamarine;
+    width: 50vw;
+}
+
+/* Percentage: takes the value from its parent's size */
+
+.div-4 {
+    background-color: rgb(204, 127, 255);
+    width: 50%;
+}

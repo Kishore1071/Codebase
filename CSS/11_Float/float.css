@@ -1,0 +1,23 @@
+.right-side-1 {
+    float: right;
+}
+
+.right-side-2 {
+    float: right;
+}
+
+.right-clear {
+    clear: right;
+}
+
+.left-side-1 {
+    float: left;
+}
+
+.left-side-2 {
+    float: left;
+}
+
+.left-clear {
+    clear: left;
+}

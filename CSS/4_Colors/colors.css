@@ -1,0 +1,27 @@
+* {
+    font-size: 20px;
+}
+
+h1 {
+    color: green;
+}
+
+/* Hex Code */
+
+h2 {
+    color: #6231e8
+}
+
+/* Each of Red, Green and Blue values ranges from 0 to 255 */
+h3 {
+    color: rgb(0, 128, 255);
+}
+
+/* a -> represents opacity of the color and the value ranges from 0 to 1 */
+h4 {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+h5 {
+    opacity: 0.3;
+}
